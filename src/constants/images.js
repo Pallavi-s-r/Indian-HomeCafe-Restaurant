@@ -5,26 +5,17 @@ import aboutbg from '../assests/aboutbg.jpg';
 import fruit from '../assests/fruit.jpg';
 import flower from '../assests/flower.jpg';
 import menu from '../assests/menu.jpg';
-// import G from '../assets/G.png';
-// import gallery01 from '../assets/gallery01.png';
-// import gallery02 from '../assets/gallery02.png';
-// import gallery03 from '../assets/gallery03.png';
-// import gallery04 from '../assets/gallery04.png';
-// import knife from '../assets/knife.png';
-// import logo from '../assets/logo.png';
-// import menu from '../assets/menu.png';
-// import overlaybg from '../assets/overlaybg.png';
-// import spoon from '../assets/spoon.svg';
-// import welcome from '../assets/welcome.png';
-// import findus from '../assets/findus.png';
-// import laurels from '../assets/laurels.png';
-// import award01 from '../assets/award01.png';
-// import award02 from '../assets/award02.png';
-// import award03 from '../assets/award03.png';
-// import award05 from '../assets/award05.png';
-// import sign from '../assets/sign.png';
-// import quote from '../assets/quote.png';
-// import gericht from '../assets/gericht.png';
+import chef from '../assests/chef.jpg';
+import gallery from '../assests/gallery.jpg';
+import gallery2 from '../assests/gallery2.jpg';
+import gallery3 from '../assests/gallery3.jpg';
+
+import gallery5 from '../assests/gallery5.jpg';
+import gallery6 from '../assests/gallery6.jpg';
+import gallery9 from '../assests/gallery9.jpg';
+
+import gallery8 from '../assests/gallery8.jpg';
+import findus from '../assests/findus.jpg';
 
 export default {
     logo,
@@ -34,26 +25,14 @@ export default {
     fruit,
     flower,
     menu,
-//   bg,
-//   chef,
-//   G,
-//   gallery01,
-//   gallery02,
-//   gallery03,
-//   gallery04,
-//   knife,
-//   logo,
-//   menu,
-//   overlaybg,
-//   spoon,
-//   welcome,
-//   findus,
-//   laurels,
-//   award01,
-//   award02,
-//   award03,
-//   award05,
-//   sign,
-//   quote,
-//   gericht,
+chef,
+gallery,
+gallery2,
+gallery3,
+
+gallery5,
+gallery6,
+gallery9,
+gallery8,
+findus
 };

@@ -6,7 +6,7 @@ import Footer from './container/Footer/Footer';
  import Gallery from './container/Gallery/Gallery';
  import Header from './container/Header/Header';
   import Intro from './container/Intro/Intro';
-import Laurels from './container/Laurels/Laurels';
+
 import Chef from './container/Chef/Chef';
 import Findus from './container/Findus/Findus';
 
@@ -20,12 +20,12 @@ const App = () => {
       <Header/>
       <AboutUs/>
       <SpecialMenu/>
-      <Footer/>
       <Chef/>
       <Intro/>
-      <Laurels />
+     
 <Gallery />
     <Findus />
+    <Footer/>
     </div>
   )
 }
