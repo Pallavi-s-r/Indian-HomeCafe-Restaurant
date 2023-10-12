@@ -24,7 +24,6 @@ const App = () => {
       <Intro />
       <Gallery />
       <Findus />
-
     </div>
   )
 }

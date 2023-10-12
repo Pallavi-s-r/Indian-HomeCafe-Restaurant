@@ -1,50 +1,62 @@
-.app__navbar{
+.app__navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-teal);
-    color: white;
-    padding:1rem 2rem;
-/* border: 2px solid black;     */
+    background: var(--color-golden);
+    color: var(--color-teal);
+    padding: 1rem 2rem;
+    font-weight: 400;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
-.app__navbar-logo img{
-    align-items: center;
-    margin-left: 8px;
-}
-.app__navbar-logo-text{
-    color: var(--color-golden);
+
+.p__navbar-logo-text {
+    color: var(--color-teal);
     display: flex;
     align-items: center;
     justify-content: center;
-   margin-left: 0px;
-   font-size: 40px;
+    margin-left: 0px;
+    font-size: 60px;
 }
-.app__navbar-links{
+
+.app__navbar-links {
     font: 1;
-    display: flex;justify-content: center;align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
-.app__navbar-links li{
+.app__navbar-links li {
     margin: 0 1rem;
     cursor: pointer;
 }
+
 .app__navbar-links li:hover {
-   color :var(--color-orange)
-}
-.app__navbar-login{
-    display: flex;justify-content: flex-end;align-items: center;
+    color: var(--color-orange)
 }
 
-.app__navbar-login a{
+.app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app__navbar-login a {
     margin: 0 1 rem;
     text-decoration: none;
     transition: 0.5s ease;
 }
-.app__navbar-login a:hover{
+
+.app__navbar-login a:hover {
     color: var(--color-orange);
 }
+
 .app__navbar-login div {
     width: 1px;
     height: 30px;
@@ -61,7 +73,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: var(--color-black);
+    background: var(--color-teal);
     transition: .5s ease;
 
     flex-direction: column;

@@ -1,7 +1,7 @@
 
 .app__header {
-    /* background-color: var(--color-black); */
-    background-image: url('../../assests/bg.jpg');
+    background-color: var(--color-darkgreen);
+    /* background-image: url('../../assests/bg.jpg'); */
     color: white;
     /* display: flex;
     flex-direction: column; */
@@ -17,11 +17,9 @@
     font-size: 90px;
 }
 
-/* .app__header-img img {
-    width: 80%;
-    /* display: flex; */
 .app__header-img img {
         width: 80%;
+ 
     }
 
 @media screen and (min-width: 2000px) {

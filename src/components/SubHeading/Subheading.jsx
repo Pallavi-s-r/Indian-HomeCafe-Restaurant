@@ -1,11 +1,11 @@
 import React from 'react'
-import { images } from '../../constants'
-const Subheading = ({title}) => {
+
+const Subheading = ({ title }) => {
   return (
-    <div style={{marginBottom:'1rem'}}>
+    <div style={{ marginBottom: '1rem' }}>
       <p className='p__cormorant'>{title}</p>
-<hr></hr>
-      {/* <img src={images.spoon} alt='spoon' className='spoon__img'/> */}
+      <hr></hr>
+
     </div>
   )
 }

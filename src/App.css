@@ -39,7 +39,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2rem;
 }
 
@@ -50,6 +49,7 @@
 
 .app__wrapper_img img {
   width: 80%;
+  border-radius: 8px;
 }
 
 .custom__button {

@@ -1,82 +1,65 @@
 import images from './images';
 
-const wines = [
+const juice = [
   {
     title: 'Mango Shake',
-    price: '$56',
-    tags: 'AU | Bottle',
+    price: 'Rs50',
+    tags: 'AU | Glass',
   },
   {
     title: 'Banana Shake',
-    price: '$59',
-    tags: 'AU | Bottle',
+    price: 'Rs59',
+    tags: 'AU | Glass',
   },
   {
     title: 'Coca-Cola',
-    price: '$44',
+    price: 'Rs44',
     tags: 'FR | 750 ml',
   },
   {
     title: 'Lassi',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    price: 'Rs31',
+    tags: 'AU | Glass',
   },
   {
     title: 'Cold-Coffee',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    price: 'Rs26',
+    tags: 'AU | Glass',
+  },
+  {
+    title: 'Hot-Coffee',
+    price: 'Rs26',
+    tags: 'AU | Glass',
   },
 ];
 
 const food = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Dosa',
+    price: 'Rs20',
+    tags: 'Masala | Plain| Paneer Stuffed | Shmbhar | Chutni',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Idlli",
+    price: 'Rs16',
+    tags: 'Rawa Idlli | Plain Idlli |Sambhar | Chutni',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Choole Bhature',
+    price: 'Rs70',
+    tags: 'Cholle | Bahture | Achar | Sallad',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Manchurian Rice',
+    price: 'Rs31',
+    tags: 'Fried Rice | Plain Rice| Chilli Manchurian',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
+    title: 'Naan with Paneer',
+    price: 'Rs31',
+    tags: 'Fried Rice | Plain Rice| Roti',
+  }
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, food, awards };
+export default { juice, food };
